@@ -12,5 +12,5 @@ Vagrant公式サイト：<http://www.vagrantup.com>
  * Ruby言語で記述されている
 
 #### Required Tools
- * Vagrant
+ * [Vagrant](http://www.vagrantup.com)
  * 仮想化アプリケーション：VirtualBox / VMware / etc...
