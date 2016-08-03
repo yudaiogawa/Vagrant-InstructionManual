@@ -8,7 +8,7 @@ Process
 1. Terminalにて, [バージョン確認](Commands.md)．コマンドが動作すればOK!!  
 
 #### Ⅱ．hypervisor Install
-1. 本稿では, [VirtualBox](Virtualbox.md)を使用します．
+1. 本稿では, [VirtualBox](VirtualBox.md)を使用します．
 1. [公式サイト](www.virtualbox.org)のDownloadsから, インストーラをダウンロード．  
 本稿執筆時点：VirtualBox-5.1.2-108956-OSX.dmg
 1. インストーラ実行．指示に従ってインストールを行う．
