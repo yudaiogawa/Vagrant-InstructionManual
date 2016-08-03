@@ -8,7 +8,6 @@ Setup
 1. Terminalにて, [バージョン確認](Commands.md)．コマンドが動作すればOK!!  
 
 #### Vagrant Box Acquisition
-1. Terminalを開き, 下記コマンド実行．
-> $ vagrant box add "Boxに付ける名前(任意)" "BoxがあるURL"
-
-1. [BoxをList表示](Commands.md)し, 取得したBoxが表示されればOK!!
+1. [Box追加](Box.md)  
+ネット上から探すも良し!! 自作Excellent!! 追加しないNonsense!!
+1. [BoxをList表示](Box.md)し, 取得したBoxが表示されればOK!!
