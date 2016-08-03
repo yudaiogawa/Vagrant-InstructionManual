@@ -4,6 +4,9 @@ Vagrant Commands List
 * バージョン確認
 > $ vagrant --version
 
+* 初期化
+> $ vagrant init "Boxの名前"
+
 * バーチャルマシン起動
 > $ vagrant up
 
@@ -27,3 +30,9 @@ Vagrant Commands List
 
 * バーチャルマシンへの接続
 > $ vagrant ssh
+
+* Box取得
+> $ vagrant box add "Boxに付ける名前" "Boxがある場所(URL)"
+
+* Box確認
+> $ vagrant box list
