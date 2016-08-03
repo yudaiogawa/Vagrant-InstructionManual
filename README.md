@@ -2,7 +2,7 @@ Vagrant Instruction Manual
 ================================
 Vagrantのマニュアルです．MacOSを前提としております．  
 Vagrantを利用して, 仮想環境の構築 + 運用をスマートかつ大胆に行います．  
-Vagrant公式サイト：<http://www.vagrantup.com>
+[公式サイト](http://www.vagrantup.com)
 
 ## Introduction
 
@@ -13,4 +13,4 @@ Vagrant公式サイト：<http://www.vagrantup.com>
 
 #### Required Tools
  * [Vagrant](http://www.vagrantup.com)
- * 仮想化アプリケーション：VirtualBox / VMware / etc...
+ * 仮想化アプリケーション：[VirtualBox](http://www.virtualbox.org/) / VMware / etc...
