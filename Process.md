@@ -24,6 +24,7 @@ Process
 $ vagrant box add hashicorp/precise64
 ```
 ※ 選択肢が表示されるかとおもいますが, 2) virtualbox を指定．  
+
 1. [BoxをList表示](Box.md)し, 取得したBoxが表示されればOK!!  
 ```
 $ vagrant box list
@@ -39,6 +40,7 @@ $ mkdir precise64VM
 $ cd precise64VM
 $ vagrant init hashicorp/recise64
 ```
+
 1. 初期化ができて, [Vagrantfile](aboutVagrantfile.md)が作成されたかと思います．
 ```
 $ ls
