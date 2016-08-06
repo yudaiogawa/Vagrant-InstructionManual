@@ -48,11 +48,12 @@ vagrantfile
 ```
 
 #### Ⅴ．Start Virtual Machine
-〜 かかっ仮想マシンをききっき起動させてみっみせよう/// 〜
+###### 〜 かかっ仮想マシンをききっき起動させてみっみせよう/// 〜
 1. Vagrantfileがあるディレクトリ内で,起動させる．
 ```
 $ vagrant up
 ```
+
 1. Virtualbox上に仮想マシンが作成されていると思います．
 
 #### Ⅵ．Thank you
