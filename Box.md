@@ -4,8 +4,20 @@ About Vagrant Box
 * 仮想マシンのイメージ, テンプレート．OSのディスクイメージファイル等が入ったもの．
 * 仮想環境ごとに必要となる．
 * ネット上に, 色んなBoxが配布されている．
-* 下記コマンドにて取得できる
-> $ vagrant box add "Boxに付ける名前" "Boxがある場所(URL)"
+* Box取得  
+取得したBoxは, ~/.vagrant.d/boxes に入る．
+```
+$ vagrant box add <Box名> <BoxがあるURL>
+```
+Box名 : Boxに付けたい名前を指定(何でも良い)  
+BoxがあるURL : Boxがある場所を指定
 
-* 取得したBoxをList表示
-> $ vagrant box list
+* 取得したBoxをリスト表示する
+```
+$ vagrant box list
+```
+
+* Box削除
+```
+$ vagrant box remove
+```

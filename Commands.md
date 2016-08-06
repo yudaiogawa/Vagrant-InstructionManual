@@ -2,37 +2,50 @@ Vagrant Commands List
 =========================
 
 * バージョン確認
-> $ vagrant --version
-
+```
+$ vagrant --version
+```
 * 初期化
-> $ vagrant init "Boxの名前"
-
+```
+$ vagrant init <Box名>
+```
 * バーチャルマシン起動
-> $ vagrant up
-
+```
+$ vagrant up
+```
 * バーチャルマシン停止
-> $ vagrant halt
-
+```
+$ vagrant halt
+```
 * バーチャルマシン再起動
-> $ vagrant reload
-
+```
+$ vagrant reload
+```
 * バーチャルマシンスリープ
-> $ vagrant suspend
-
+```
+$ vagrant suspend
+```
 *  スリープからの復帰
-> $ vagrant resume
-
+```
+$ vagrant resume
+```
 * バーチャルマシン状態確認
-> $ vagrant status
-
+```
+$ vagrant status
+```
 * バーチャルマシン削除  
-> $ vagrant destroy
-
+```
+$ vagrant destroy
+```
 * バーチャルマシンへの接続
-> $ vagrant ssh
-
+```
+$ vagrant ssh
+```
 * Box取得
-> $ vagrant box add "Boxに付ける名前" "Boxがある場所(URL)"
-
+```
+$ vagrant box add <Boxに付ける名前> <Boxがある場所(URL)>
+```
 * Box確認
-> $ vagrant box list
+```
+$ vagrant box list
+```

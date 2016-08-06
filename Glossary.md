@@ -11,4 +11,6 @@
 #### Vagrantfile
 * 仮想マシンの設定が既述されたファイル．Rubyで既述されている．
 * 下記コマンド実行時に生成される．
-> $ vagrant init "Box_name"
+```
+$ vagrant init "Boxの名前"
+```
