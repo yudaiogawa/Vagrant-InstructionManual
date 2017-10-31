@@ -1,5 +1,5 @@
-Vagrant Commands List
-=========================
+Vagrant Commands
+========
 
 * バージョン確認
 ```

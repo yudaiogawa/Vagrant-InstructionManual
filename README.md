@@ -1,9 +1,9 @@
 Vagrant Manual :)
-===
+========
 [公式サイト - Vagrant by HashiCorp](http://www.vagrantup.com)  
 
 About
----
+--------
 * Immutable Infrastructure as Code を実現する
 * 仮想マシンを構築するためのツール
 * 開発環境を簡単に構築できる
@@ -11,11 +11,11 @@ About
 * プロビジョニング機能
 
 Environment
----
+--------
 MacOS
 
 Introduction
----
+--------
 ### Required Tools
 * [Vagrant](http://www.vagrantup.com)
 * 仮想化アプリケーション
