@@ -24,7 +24,7 @@ Introduction
   - etc.
 
 ### How to use
-* [とりあえず使ってみる](process.md)
+* [とりあえず使ってみる](introduction.md)
 
 ### Glossary
 * [コマンドリスト](commands.md)
