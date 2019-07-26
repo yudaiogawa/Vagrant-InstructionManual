@@ -1,51 +1,89 @@
-Vagrant Commands
-========
+# Commands
 
-* バージョン確認
+[Documentation - Commands(CLI)](https://www.vagrantup.com/docs/cli/)
+
+## Init
+
+- 初期化
+
+```bash
+vagrant init [box name(optional)] [url(optional)]
 ```
-$ vagrant --version
+
+## Box
+
+- Boxの追加
+
+```bash
+vagrant box add [name(optional)] [address]
 ```
-* 初期化
+
+- インストールされているBoxの一覧表示
+
+```bash
+vagrant box list
 ```
-$ vagrant init <Box名>
+
+## Up
+
+- ゲストマシーン作成および起動
+
+```bash
+vagrant up
 ```
-* バーチャルマシン起動
+
+## SSH
+
+- ゲストマシーンへの接続
+
+```bash
+vagrant ssh
 ```
-$ vagrant up
+
+## Status
+
+- Vagrantが管理しているマシーンの状態を確認する
+
+```bash
+vagrant status
 ```
-* バーチャルマシン停止
+
+## Halt
+
+- 稼働中のゲストマシーンを停止する
+
+```bash
+vagrant halt
 ```
-$ vagrant halt
+
+## Reload
+
+- ゲストマシーンの再起動
+
+```bash
+vagrant reload
 ```
-* バーチャルマシン再起動
+
+## Suspend
+
+- バーチャルマシーンをスリープ状態にする
+
+```bash
+vagrant suspend
 ```
-$ vagrant reload
+
+## Resume
+
+- スリープ状態からの復帰
+
+```bash
+vagrant resume
 ```
-* バーチャルマシンスリープ
-```
-$ vagrant suspend
-```
-*  スリープからの復帰
-```
-$ vagrant resume
-```
-* バーチャルマシン状態確認
-```
-$ vagrant status
-```
-* バーチャルマシン削除  
-```
-$ vagrant destroy
-```
-* バーチャルマシンへの接続
-```
-$ vagrant ssh
-```
-* Box取得
-```
-$ vagrant box add <Boxに付ける名前> <Boxがある場所(URL)>
-```
-* Box確認
-```
-$ vagrant box list
+
+## Destroy
+
+- ゲストマシーンの削除
+
+```bash
+vagrant destroy
 ```
