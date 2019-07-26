@@ -1,30 +1,22 @@
-Vagrant Manual :)
-========
-[公式サイト - Vagrant by HashiCorp](http://www.vagrantup.com)  
+# Vagrant ;)
 
-About
---------
-* Immutable Infrastructure as Code を実現する
-* 仮想マシンを構築するためのツール
-* 開発環境を簡単に構築できる
-* 設定を一度記載すれば、何回でも同じ構成の仮想マシンを立ち上げれる。
-* プロビジョニング機能
+## Overview
 
-Environment
---------
-MacOS
+- Immutable Infrastructure as Code
+- 開発環境の構築および共有を簡単に行うためのツール
+- 開発環境構築の自動化
+- 設定を一度記載すれば、何回でも同じ構成の仮想マシンを構築できる
+- プロビジョニング機能を備えている
 
-Introduction
---------
-### Required Tools
-* [Vagrant](http://www.vagrantup.com)
-* 仮想化アプリケーション
-  - [VirtualBox](http://www.virtualbox.org/)
-  - VMware
-  - etc.
+## Required Tools
 
-### How to use
-* [とりあえず使ってみる](introduction.md)
+- [Vagrant](http://www.vagrantup.com)
+- [VirtualBox](http://www.virtualbox.org/)
 
-### Glossary
-* [コマンドリスト](commands.md)
+## Introduction
+
+- [Introduction](introduction.md)
+
+## Commands
+
+- [Commands](commands.md)
