@@ -1,5 +1,5 @@
 <h1 align="center">Vagrant</h1>
-<p align="center">Instruction to Vagrant.<p>
+<p align="center">Introduction to Vagrant.<p>
 <br>
 
 ### Overview
